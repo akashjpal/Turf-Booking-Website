@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB");
+mongoose.connect("mongodb+srv://akash:akash@cluster0.trdd6ez.mongodb.net/todolistDB");
 
 const Registeration = {
   name:String,
